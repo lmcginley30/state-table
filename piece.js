@@ -14,7 +14,7 @@ function resize() {
 addEventListener('resize', resize);
 resize();
 
-const COLORS = { nobody: '#0b0b0d', here: '#1d2a3a', open: '#3a1d2a' };
+const COLORS = { nobody: '#0b0b0d', here: '#1d2a3a', open: '#008000' };
 
 // A state with no colour above still gets a bright one of its own, picked from
 // its name, so a new row in table.js is visible the moment it fires.
