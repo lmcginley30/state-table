@@ -15,7 +15,7 @@ window.TABLE = {
 
   states: [
     // These three rows are an example. Replace them with your own words.
-    { name: 'open',   when: s => s.present > 0.5 && s.open > 0.4, hold: 0.5 },
+    { name: 'open',   when: s => s.present > 1.0 && s.open > 0.4, hold: 0.5 },
     { name: 'here',   when: s => s.present > 0.5,                 hold: 1 },
     { name: 'nobody', when: s => s.present < 0.2,                 hold: 2 },
   ],
